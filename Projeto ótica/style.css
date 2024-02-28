@@ -1,0 +1,83 @@
+@charset "utf-8";
+
+:root {
+    --cor0: #001c4f;
+    --cor1: #071328;
+    --cor2: #dbb148;
+    --cor3: #a18235;
+    --cor4: #665322;
+}
+
+
+/* tags gerais */
+
+* {
+    margin: 0%;
+}
+
+body{
+    background-color: rgb(236, 234, 252);
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 250px;
+    height: 250px;
+}
+
+
+/* tags estruturais */
+
+header {
+    background-image: linear-gradient(to top, var(--cor1), var(--cor0));
+}
+
+nav {
+    background-color: var(--cor1);
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    min-width: 333px;
+}
+
+main{
+    margin: auto;
+    padding-top: 20px;
+    background-color: white;
+    width: 1600px;
+    height: 1400px;
+}
+
+/* itens filhos */
+
+nav a{
+    font: normal 18px Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    margin: 14px;
+    color: white;
+    background-color: var(--cor0);
+    padding: 8px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 8px 2px rgb(43, 43, 58);
+}
+
+main p{
+    text-indent: 50px;
+    text-align: justify;
+    font-size: 30px;
+    margin: 0px 40px 10px 40px;
+}
+
+main h1, main h2{
+    font-size: 60px;
+    margin: 10px;
+    padding-left: 60px;
+    text-align: left;
+}
+
+/* itens hover */
+
+nav a:hover{
+    color: var(--cor2);
+}
