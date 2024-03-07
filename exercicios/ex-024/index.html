@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #titulo {
+            display: inline-block;
+            background-color: lightgray;
+            margin: 6px;
+            padding: 5px;
+            font-size: 1.4em;
+        }
+
+        div#container{
+            display: grid;
+            place-items: center;
+        }
+
+        div#caixa {
+            border-radius: 10px;
+            border: 2px solid black;
+            background-color: lightslategray;
+            display: grid;
+            place-items: center;
+            width: 450px;
+            height: 240px;
+        }
+
+        #nome01 {
+            margin-left: 40px;
+        }
+
+        #enviar {
+            text-align: center;
+        }
+
+        form > p{
+            text-align: left;
+        }
+
+    </style>
+</head>
+<body>
+   
+    <div id="container">
+        <div id="caixa">
+            <P id="titulo">This is my first form</P>
+            <form>
+                <p>Nome <input type="text" name="nome" id="nome01"></p>
+                <p>Sobrenome <input type="text" name="obrenome" id="obrenome"></p>
+                <p id="enviar"><input type="submit" value="enviar"></p>
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
