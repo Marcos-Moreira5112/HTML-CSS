@@ -11,12 +11,21 @@
     <div id="container">
         <div id="caixa">
             <P id="titulo">This is my first form</P>
-            <form>
-                <p id="textnome"><label for="inome"> Nome: </label>
-                    <input type="text" name="nome" id="inome"></p>
-                <p><label for="isobren"> Sobrenome </label> 
-                    <input type="text" name="sobren" id="isobren"></p>
-                <p id="enviar"><input type="submit" value="enviar"></p>
+            <form autocomplete="off">
+                <p id="textnome01">
+                    <label for="inome"> Nome: </label>
+                    <input type="text" name="nome" id="inome" required  placeholder="Seu nome">
+                </p>
+
+                <p>
+                    <label for="isobren"> Sobrenome: </label> 
+                    <input type="text" name="sobren" id="isobren" required  placeholder="Seu sobrenome">
+                </p>
+
+                <p id="enviar">
+                    <input type="submit" value="enviar">
+                    <input type="reset" value="Limpar">
+                </p>
             </form>
         </div>
     </div>
