@@ -68,7 +68,38 @@
                 </p>
             </form>   
         </div>
+
+        <div class="caixa">
+            <form>
+                <label for="iestado">escolha o estado</label>
+                <select name="estado" id="iestado">
+                    <optgroup label="Região Sudeste">
+                        <option value="MG">Minas Gerais</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="SP">São Paulo</option>
+                    </optgroup>
+
+                    <optgroup label="Região Norte">
+                        <option value="PR">Paraná</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="AC">Acre</option>
+                    </optgroup>
+                </select>
+
+                <label for="iprof"></label>
+                <input type="Text" name="prof" id="iprof">
+                <datalist>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="SP">São Paulo</option>
+                </datalist>
+            </form>   
+        </div>
+        <div class="caixa">
+            <form>
+                <textarea name="msg" id="imsg" cols="30" rows="10"></textarea> 
+            </form>
+        </div>
     </div>
-    
 </body>
 </html>
